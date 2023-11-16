@@ -40,6 +40,19 @@ Step 10:-Starts the development server for the Django project, allowing you to p
 
 		"python3 manage.py runserver"
 
+Step 11:-Stops the running development server.
+
+		"ctrl+c"
+
+Step 12:-Creates a new Django app within the project, providing a modular structure for organizing code related to specific functionalities.
+
+
+		"python manage.py startapp (app name)"
+
+Step 13:-Restarts the development server with the newly created app included, allowing you to continue working on your Django project.
+
+		"python manage.py runserver"
+
 
 
 
