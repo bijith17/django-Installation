@@ -1,0 +1,45 @@
+				Create Django Project
+
+Step 1:- Checks and displays the installed Python version on the system.
+
+		"python3 --version"
+
+Step 2:- Installs the Python package manager (pip) for Python 3, allowing you to easily install and manage Python packages.
+
+		"sudo apt install python3-pip"
+		
+Step 3:-Installs the Python 3 virtual environment package, which is used to create isolated Python environments for projects.
+
+		"sudo apt install python3-venv"
+		
+Step 4:-Creates a new Python virtual environment with the specified name.
+
+		"python3 -m venv (environment name)"
+		
+Step 5:-Activates the Python virtual environment, isolating your project's dependencies from the system's global Python environment.
+
+		"source (env name)/bin/activate"
+		
+Step 6:-Installs the Django web framework within the activated virtual environment.
+
+		"pip3 install django"
+		
+Step 7:-Checks and displays the installed Django version.
+
+		"django-admin --version"
+		
+Step 8:-Creates a new Django project with the specified name, setting up the basic structure for a Django application.
+		
+		"django-admin startproject (project name)"
+
+Step 9:-Changes the current working directory to the newly created Django project directory.
+
+		"cd (project name)"
+		
+Step 10:-Starts the development server for the Django project, allowing you to preview and test your application locally.
+
+		"python3 manage.py runserver"
+
+
+
+
