@@ -1,0 +1,3 @@
+urlpatterns+=static(settings.Media_Url,document_root=settings.MEDIA_ROOT)
+
+ This function generates URL patterns to serve media files during development
